@@ -1,0 +1,30 @@
+.social h3{
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.social div{
+    margin: 1rem auto;
+    text-align: center;
+}
+.icons{
+    padding: 2rem;
+}
+
+.emailForm{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.emailForm h3{
+    font-size: 1.5rem;
+}
+
+.contactme{
+    padding: 3rem 0;
+    background-color: rgba(234, 134, 52, 0.024);
+    /* margin-bottom: 2rem; */
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    margin-top: 4rem;
+    overflow: hidden;
+}
+
+.profile{
+    margin: 2rem;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 0 0 20px 5px rgb(164, 163, 163);
+}
+
+.profile img{
+    object-fit: contain;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.introText{
+    display: inline-block;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+.introText p{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.introText span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 716px){
+    .intro{
+        margin : 2rem auto;
+        padding: 4rem 0rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .profile{
+        width: 22rem;
+        height: 22rem;
+        margin: 8rem 5rem;
+    }
+
+    .introText{
+        margin: 8rem 5rem;
+    }
+    
+    .introText p{
+        font-size: 2.5rem;
+    }
+}

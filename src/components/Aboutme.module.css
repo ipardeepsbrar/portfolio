@@ -1,0 +1,30 @@
+.computers{
+    margin-top: 4rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.computers h3{
+    padding: 2rem;
+    text-align: center;
+}
+.myLikes{
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.myLikes h3{
+    padding: 2rem;
+    text-align: center;
+}
+
+.computers, .myLikes{
+    background-color: rgba(240, 248, 255, 0.505);
+}

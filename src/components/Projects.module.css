@@ -1,0 +1,30 @@
+.projects{
+    padding-bottom: 3rem;
+    background-color: rgba(240, 248, 255, 0.674);
+}
+
+.title{
+    margin: 0rem auto;
+    padding: 3rem 0;
+    text-align: center;
+}
+.title h3{
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: rgba(5, 110, 117, 0.764);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    
+}
+
+.projectsContainer{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 720px){
+    .projectsContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}

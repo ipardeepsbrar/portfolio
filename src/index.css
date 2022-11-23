@@ -1,13 +1,32 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap");
+*{
+  font-family: "Comfortaa", cursive;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+body{
+  height: 200vh;
+}
+
+.bgimage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.bgimage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
 }
