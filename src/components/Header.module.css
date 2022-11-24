@@ -6,7 +6,7 @@
   width: 100%;
   height: fit-content;
   justify-content: space-between;
-  box-shadow: 0 2px 10px 5px rgb(159, 157, 157);
+  /* box-shadow: 0 2px 10px 5px rgb(159, 157, 157); */
   position: fixed;
   top: 0;
   left: 0;
@@ -67,12 +67,13 @@
   }
 
   .menuContainer {
-    position: relative;
+    position: absolute;
     top: 100%;
     width: 100%;
-    margin-top: 1rem;
+    padding-top: 1rem;
     display: none;
     visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.518);
   }
 
   .showMenuContainer {
