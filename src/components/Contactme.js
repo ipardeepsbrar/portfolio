@@ -4,6 +4,8 @@ import classes from "./Contactme.module.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const Contactme = (props) => {
   return (
@@ -36,7 +38,24 @@ const Contactme = (props) => {
               className={classes.icons}
               fontSize="large"
               color="primary"
-            />{" "}
+            />
+          </IconButton>
+          <IconButton href="https://github.com/ipardeepsbrar" target="_blank">
+            <GitHubIcon
+              className={classes.icons}
+              fontSize="large"
+              sx={{color:'black'}}
+            />
+          </IconButton>
+          <IconButton
+            href="https://www.youtube.com/@ipardeepsbrar"
+            target="_blank"
+          >
+            <YouTubeIcon
+              className={classes.icons}
+              fontSize="large"
+              sx={{color:'red'}}
+            />
           </IconButton>
         </div>
       </div>
@@ -45,11 +64,11 @@ const Contactme = (props) => {
         <form>
           <TextField
             id="outlined-basic"
-            label="Full Name" 
+            label="Full Name"
             variant="outlined"
             fullWidth
             required
-            sx={{margin:'2rem 0'}}
+            sx={{ margin: "2rem 0" }}
             className={classes.formElement}
           />
           <TextField
@@ -58,7 +77,7 @@ const Contactme = (props) => {
             variant="outlined"
             fullWidth
             required
-            sx={{margin:'2rem 0'}}
+            sx={{ margin: "2rem 0" }}
             className={classes.formElement}
           />
           <TextField
@@ -67,10 +86,14 @@ const Contactme = (props) => {
             variant="outlined"
             fullWidth
             required
-            sx={{margin:'2rem 0'}}
+            sx={{ margin: "2rem 0" }}
             className={classes.formElement}
           />
-          <Button variant="contained" sx={{margin:'2rem 0'}} className={classes.formElement}>
+          <Button
+            variant="contained"
+            sx={{ margin: "2rem 0" }}
+            className={classes.formElement}
+          >
             Submit
           </Button>
         </form>
