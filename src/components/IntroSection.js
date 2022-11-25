@@ -1,4 +1,4 @@
-import pic from "../images/pic.jpeg";
+import pic from "../images/temp.png";
 import '../index.css';
 
 import classes from "./IntroSection.module.css";
