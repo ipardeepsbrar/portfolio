@@ -4,8 +4,16 @@ import classes from "./Projects.module.css";
 import pic1 from "../images/project1.png";
 import pic2 from '../images/gCart.png';
 import pic3 from '../images/project3.png';
+import workstar from '../images/workstar2.png'
 
 const list = [
+  {
+    img: workstar,
+    title:'Workstar',
+    description:'It is a complete MERN project made completely by myself. The fontend is a SPA built with React and some other small packages. The backend is a RESTfull API built with NodeJs and Express with full authentication.',
+    liveLink:'https://workstar-bypardeep.web.app/',
+    gitHubLink:'https://github.com/ipardeepsbrar/workstar.git'
+  },
   {
     img: pic1,
     title: "Food Order App",
@@ -28,13 +36,6 @@ const list = [
     liveLink:'#',
     gitHubLink:'https://github.com/ipardeepsbrar/figmaProject.git'
   },
-  {
-    img:'',
-    title:'new',
-    description:'description goes here',
-    liveLink:'',
-    gitHubLink:''
-  }
 ];
 
 const Projects = (props) => {
