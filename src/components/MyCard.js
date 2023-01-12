@@ -1,5 +1,5 @@
 import React from "react";
-import { MdLaunch } from "react-icons/fa";
+import { MdLaunch } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
 import classes from "./MyCard.module.css";
