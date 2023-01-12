@@ -30,8 +30,8 @@ const list = [
   },
   {
     img:'',
-    title:'',
-    description:'',
+    title:'new',
+    description:'description goes here',
     liveLink:'',
     gitHubLink:''
   }
