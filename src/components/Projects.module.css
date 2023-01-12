@@ -28,3 +28,8 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+@media screen and (min-width: 1020px){
+    .projectsContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

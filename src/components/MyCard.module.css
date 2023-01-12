@@ -1,7 +1,7 @@
 .myCard{
     width: 85%;
-    max-height: 28rem;
-    background-color: #60bc31;
+    /* max-height: 28rem; */
+    background-color: #ecf1ea;
     border-radius: 1rem;
     overflow: hidden;
     margin: 3rem auto;
@@ -12,6 +12,57 @@
 .myCard:first-of-type{
     margin-top: 2rem;
 }
-.images{
-    max-height: 17.5rem;
+
+
+.imageDiv{
+    max-height: 18rem;
+    /* object-fit: contain; */
+}
+
+.image{
+    width: 100%;
+    /* max-height: fit-content; */
+    /* object-fit: contain; */
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+
+.description{
+    margin-bottom: 1rem;
+}
+
+.linkIcons{
+    display: flex;
+    justify-content: center;
+    gap: 0 2rem;
+    /* margin-top: 0.3rem; */
+}
+
+.linkIcons a{
+    font-size: 1.4rem;
+    color: rgb(86, 87, 88)
+}
+
+.linkIcons a:hover,
+.linkIcons a:active{
+    color: rgb(0, 0, 0)
+}
+
+.aboutImage{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 720px){
+    .myCard{
+        width: 70%;
+    }
+
+    .imageDiv{
+        height: 20rem;
+    }
+    .image{
+        height: 100%;
+    }
 }
